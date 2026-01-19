@@ -29,3 +29,34 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.profile-image {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.about-card {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+    .about-card p {
+        margin-bottom: 16px;
+    }
+
+.about-highlight {
+    font-weight: 600;
+    color: #0d6efd;
+}

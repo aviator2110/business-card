@@ -18,7 +18,19 @@ namespace business_card.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Skills()
+        {
+            return View();
+        }
+        public IActionResult Projects()
+        {
+            return View();
+        }
+        public IActionResult AboutMe()
+        {
+            return View();
+        }
+        public IActionResult ContactMe()
         {
             return View();
         }
