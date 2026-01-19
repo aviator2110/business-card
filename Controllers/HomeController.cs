@@ -54,6 +54,14 @@ namespace business_card.Controllers
                 smtp.Credentials = new NetworkCredential("quram21@gmail.com", "rjxh tipr tqkj gysf");
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
+
+                var userMail = new MailMessage();
+                userMail.From = new MailAddress("quram21@gmail.com");
+                userMail.To.Add(email);
+                userMail.Subject = "Thank you for contacting me!";
+                userMail.Body = $"Hello {name},\n\nThank you for reaching out! I have received your message and will reply as soon as possible.\n\nBest regards,\nGuram Gognidze";
+
+                smtp.Send(userMail);
             }
 
             ViewBag.Success = true;
