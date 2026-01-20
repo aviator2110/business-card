@@ -44,19 +44,19 @@ namespace business_card.Controllers
         public IActionResult ContactMe(string name, string email, string message)
         {
             var mail = new MailMessage();
-            mail.From = new MailAddress("quram21@gmail.com");
-            mail.To.Add("quram21@gmail.com");
+            mail.From = new MailAddress("guram21smtp@gmail.com");
+            mail.To.Add("guram21smtp@gmail.com");
             mail.ReplyToList.Add(new MailAddress(email));
             mail.Subject = "New message from contact form";
             mail.Body = $"Name: {name}\nEmail: {email}\nMessage:\n{message}";
 
             using (var smtp = new SmtpClient("smtp.gmail.com", 587)) {
-                smtp.Credentials = new NetworkCredential("quram21@gmail.com", "rjxh tipr tqkj gysf");
+                smtp.Credentials = new NetworkCredential("guram21smtp@gmail.com", "fvii sfmb uapg jukd");
                 smtp.EnableSsl = true;
                 smtp.Send(mail);
 
                 var userMail = new MailMessage();
-                userMail.From = new MailAddress("quram21@gmail.com");
+                userMail.From = new MailAddress("guram21smtp@gmail.com");
                 userMail.To.Add(email);
                 userMail.Subject = "Thank you for contacting me!";
                 userMail.Body = $"Hello {name},\n\nThank you for reaching out! I have received your message and will reply as soon as possible.\n\nBest regards,\nGuram Gognidze";

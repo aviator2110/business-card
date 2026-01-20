@@ -9,19 +9,19 @@
   },
   "packageFolders": {
     "C:\\Users\\Quram\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "F:\\Programms\\VS2022(SDK)\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Quram\\Desktop\\programing\\business-card\\business-card.csproj",
+      "projectUniqueName": "C:\\Users\\Quram\\Desktop\\program\\business-card\\business-card.csproj",
       "projectName": "business-card",
-      "projectPath": "C:\\Users\\Quram\\Desktop\\programing\\business-card\\business-card.csproj",
+      "projectPath": "C:\\Users\\Quram\\Desktop\\program\\business-card\\business-card.csproj",
       "packagesPath": "C:\\Users\\Quram\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Quram\\Desktop\\programing\\business-card\\obj\\",
+      "outputPath": "C:\\Users\\Quram\\Desktop\\program\\business-card\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "F:\\Programms\\VS2022(SDK)\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Quram\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net9.0": {
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
